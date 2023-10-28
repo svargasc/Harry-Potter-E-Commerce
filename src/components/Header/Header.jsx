@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom";
 import React from "react";
 
-export const Header = ({ info, viewCart }) => {
+export const Header = () => {
   return (
     <>
       <header>
@@ -13,7 +13,7 @@ export const Header = ({ info, viewCart }) => {
               <h2 className="text-3xl">Books available</h2>
             </li>
             <li>
-              <button onClick={viewCart}><NavLink to="/car">Go to shopping cart</NavLink></button>
+              <button><NavLink to="/car">Go to shopping cart</NavLink></button>
             </li>
           </ul>
         </nav>
