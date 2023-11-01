@@ -6,14 +6,14 @@ export const Header = () => {
     <>
       <header>
         <nav>
-          <h1 className="p-4">Harry Potter Books</h1>
+          <h1 className="p-4">svargasc | Books</h1>
           <hr />
           <ul className="flex w-[100%] justify-between p-4">
             <li>
               <h2 className="text-3xl">Books available</h2>
             </li>
             <li>
-              <button><NavLink to="/car">Go to shopping cart</NavLink></button>
+              <button className="bg-[#6a5f6a]"><NavLink to="/car" className="text-[#dddadd]">Go to shopping cart</NavLink></button>
             </li>
           </ul>
         </nav>

@@ -3,6 +3,7 @@ import React, { useEffect, useState } from "react";
 import "./App.css";
 import { Books } from "./components/Books/Books";
 import { ShoppingCar } from "./components/ShoppingCar/ShoppingCar";
+import { Footer } from "./components/Footer/Footer";
 
 function App() {
   const [books, setBooks] = useState([]);
